@@ -7,6 +7,7 @@ All of the information is pulled from the [Coin Market Cap](http://www.coinmarke
 
 ##Download
 A compiled Windows binary is available in [bin/](https://github.com/M-Gold/Eth-Watch/tree/master/bin)
+
 TODO:
 * Add support for the new currencies and information available from the API
 * Provide options accessible from the cog icon in the upper-right
