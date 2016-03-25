@@ -20,6 +20,11 @@ namespace EtheriumWatcher
             InitializeComponent();
             GetCoinInfo(null, null);
 
+            /* Temporary until the 'options' system is in place */
+            stackPan_Settings1.Visibility = Visibility.Hidden;
+            stackPan_Settings2.Visibility = Visibility.Hidden;
+
+
             System.Windows.Threading.DispatcherTimer dispatcherTimer = new System.Windows.Threading.DispatcherTimer();
             dispatcherTimer.Tick += new EventHandler(GetCoinInfo);
             dispatcherTimer.Interval = new TimeSpan(0, 0, 10);

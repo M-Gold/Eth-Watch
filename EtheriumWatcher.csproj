@@ -49,6 +49,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>EtheriumIcon.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -126,13 +129,16 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="EtheriumLogo.png" />
+    <Resource Include="res\graphics\EtheriumLogo.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="EtheriumIcon.png" />
+    <Resource Include="res\graphics\EtheriumIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Cog.png" />
+    <Resource Include="res\graphics\Cog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="EtheriumIcon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
